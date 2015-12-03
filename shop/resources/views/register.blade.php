@@ -50,9 +50,9 @@ function MM_preloadImages() { //v3.0
     </center></td>
   </tr>
   <tr>
-    <td width="190" height="71" bgcolor="#FFFFFF"><p>&nbsp;</p>
-      <center> 
-        <FORM  METHOD="POST" ACTION="chkmemer.php">
+    <td width="190" height="71" bgcolor="#FFFFFF">
+    <center>
+    <FORM  METHOD="POST" ACTION="chkmemer.php">
         <Table>
                 <TR>
 
@@ -66,14 +66,24 @@ function MM_preloadImages() { //v3.0
                 <TD><B>Password: </B></TD>
                 <TD><Input Name="pass_reg" Type="password" size="15"></TD>
                 </TR>
-          </TABLE>
+        </TABLE>
 
-                <input type="button" name="login" id="login" value="เข้าสู่ระบบ" style = "background-color:transparent" onclick="window.location.href='http://localhost/SE/register'" />
+                <input type="button" name="login" id="login" value="เข้าสู่ระบบ" style = "background-color:transparent" onclick="window.location='login'" />
+
                 <input type="button" name="forget" id="forget" value="ลืมรหัสผ่าน" style = "background-color:transparent" onclick="window.location='register'" />
 
-          <input type="button" name="register" id="login" value="ลงทะเบียน" style = "background-color:transparent" onclick="window.location.href='http://localhost/SE/register'" />
+                
+                <input type="button" name="register" id="login" value="ลงทะเบียน" style = "background-color:transparent" onclick="window.location='register'" />
+                
       </FORM>
-    </center>
+      </center>
+
+  	<p>&nbsp;</p>
+  	<p>&nbsp;</p>
+  	<p>&nbsp;</p>
+  	<p>&nbsp;</p>
+  	<p>&nbsp;</p>
+  	<p>&nbsp;</p>
   	<p>&nbsp;</p>
   	<p>&nbsp;</p>
   	<p>&nbsp;</p>
@@ -86,8 +96,16 @@ function MM_preloadImages() { //v3.0
   	<p>&nbsp;</p></td>
     <td width="780" bgcolor="#FFFFFF" class="size5"><center>
     </center>
-<p>&nbsp;</p>
-    <p>&nbsp;</p>
+<center>ลงทะเบียน</center></H1>
+          &nbsp; Username &nbsp; <input type="text" name="user_user" maxlength="20" > * <br /><br/>
+        &nbsp; Password &nbsp; &nbsp;<input type="text" name="pass_user" maxlength="15"> * <br /><br/>
+        &nbsp; Name &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <input type="text" name="name_user" value="" size="5" maxlength="30"/>&nbsp; * <br/><br/>
+        &nbsp; Last name  &nbsp;<input type="text" name="last_user" value="" size="20" maxlength="30"/> &nbsp; *<br /><br/>
+        &nbsp; Sex &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sex_user" value="Male" checked>Male
+              <input type="radio" name="sex_user" value="Female">Female <br /><br/>
+        &nbsp; Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="email_user" size="30"> * <br /><br/>
+        &nbsp; Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="tel_user" size="10"> * <br /><br/>
+        <center><input type="submit" value="submit"><input type="reset" value="reset"></center>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

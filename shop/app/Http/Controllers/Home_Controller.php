@@ -16,13 +16,12 @@ class Home_Controller extends Controller
 	public function contactrr(){
 		return view('contact');
 	}
-	public function home11(){
-		return view('home1');
-	}
 	public function design_goods(){
 		return view('design_goods');
 	}
-
+	public function register(){
+		return view('register');
+	}
 
 }
 
